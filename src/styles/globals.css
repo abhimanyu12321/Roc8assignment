@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link a {
+  @apply transition hover:text-slate-500;
+}
